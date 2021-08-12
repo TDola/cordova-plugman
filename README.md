@@ -21,6 +21,9 @@
 
 # plugman
 
+## Fork reason
+Plugman didn't work with NPM 7.  Needed to increase the dependency for cordova-lib to version 10.  Also seems to break with hooks because of a cordova-lib error.  If you have trouble, add --nohooks to the command line.
+
 A command line tool to install and uninstall plugins for use with [Apache Cordova](http://cordova.io) projects.
 
 This document defines tool usage.
