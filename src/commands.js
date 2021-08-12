@@ -36,7 +36,7 @@ module.exports = {
             link: cli_opts.link,
             projectRoot: cli_opts.project,
             force: cli_opts.force || false,
-            nohooks: cli_opts.nohooks || false
+            nohooks: cli_opts.nohooks
         };
 
         return pEachSeries(cli_opts.plugin, pluginSrc =>
